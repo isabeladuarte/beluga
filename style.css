@@ -24,7 +24,7 @@ nav a:hover{
 }
 header{
     width: 100%;
-    height: 600px;
+    height: 300px;
     background-image:url(imagens/beluga.jpg);
     background-size: cover; /*Vai tentar acomapanhar com o tamanho da tela o cover*/
     background-position: center;
@@ -35,4 +35,41 @@ header h1{
     margin-left:100px;
     color:white;
     
+}
+section{
+    background-color:white;
+    height: 400px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+section div{
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    width:400px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+section div input {
+    border-radius:10px;
+    border:none;
+    background-color: azure;
+}
+section div input::placeholder{
+    color:black;
+    font-size:10pt;
+    text-align: center;
+}
+section div input:focus{
+    background-color:aqua;
+}
+section div button{
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    cursor: pointer;
 }
