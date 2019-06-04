@@ -2,7 +2,7 @@ body{
     margin:0;
 }
 nav{
-    background-color: aquamarine;
+    background-color:#00BFFF;
     height: 60px;
     display: flex; /* Sem display não tem align e justify*/
     align-items: center;
@@ -12,13 +12,27 @@ nav a{
     color: white;
     text-decoration: none; /*Sem a linha na palavra*/
     font-weight: bolder;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 nav a:nth-child(1){ /*Atribuir para cada número de a href do nav*/
     color:black; 
 }
 nav a:hover{
-    color: purple;
+    color:#0000CD;
     font-size: 18.5pt;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image:url(imagens/beluga.jpg);
+    background-size: cover; /*Vai tentar acomapanhar com o tamanho da tela o cover*/
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+header h1{
+    margin-left:100px;
+    color:white;
+    
 }
